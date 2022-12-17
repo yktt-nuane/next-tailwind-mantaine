@@ -16,16 +16,17 @@
     "test:unit": "vitest run --coverage"
   },
   "dependencies": {
+    "next": "13.0.7",
+    "next-axiom": "^0.16.0",
+    "react": "18.2.0",
+    "vite-tsconfig-paths": "^4.0.3"
+  },
+  "devDependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/server": "^11.10.0",
     "@mantine/core": "^5.9.4",
     "@mantine/hooks": "^5.9.4",
     "@mantine/next": "^5.9.4",
-    "next": "13.0.7",
-    "react": "18.2.0",
-    "vite-tsconfig-paths": "^4.0.3"
-  },
-  "devDependencies": {
     "@testing-library/react": "^13.4.0",
     "@types/node": "18.11.15",
     "@types/react": "18.0.26",
