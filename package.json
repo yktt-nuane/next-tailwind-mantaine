@@ -22,6 +22,11 @@
     "vite-tsconfig-paths": "^4.0.3"
   },
   "devDependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/server": "^11.10.0",
+    "@mantine/core": "^5.9.4",
+    "@mantine/hooks": "^5.9.4",
+    "@mantine/next": "^5.9.4",
     "@testing-library/react": "^13.4.0",
     "@types/node": "18.11.15",
     "@types/react": "18.0.26",
@@ -29,11 +34,6 @@
     "@typescript-eslint/parser": "^5.46.1",
     "@vitejs/plugin-react": "^3.0.0",
     "@vitest/coverage-c8": "^0.25.8",
-    "@emotion/react": "^11.10.5",
-    "@emotion/server": "^11.10.0",
-    "@mantine/core": "^5.9.4",
-    "@mantine/hooks": "^5.9.4",
-    "@mantine/next": "^5.9.4",
     "autoprefixer": "^10.4.13",
     "eslint-config-next": "13.0.7",
     "eslint-config-prettier": "^8.5.0",
