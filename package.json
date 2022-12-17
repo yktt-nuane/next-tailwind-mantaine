@@ -16,17 +16,22 @@
     "test:unit": "vitest run --coverage"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/server": "^11.10.0",
+    "@mantine/core": "^5.9.4",
+    "@mantine/hooks": "^5.9.4",
+    "@mantine/next": "^5.9.4",
     "next": "13.0.7",
     "react": "18.2.0",
     "vite-tsconfig-paths": "^4.0.3"
   },
   "devDependencies": {
     "@testing-library/react": "^13.4.0",
-    "@vitejs/plugin-react": "^3.0.0",
     "@types/node": "18.11.15",
     "@types/react": "18.0.26",
     "@typescript-eslint/eslint-plugin": "^5.46.1",
     "@typescript-eslint/parser": "^5.46.1",
+    "@vitejs/plugin-react": "^3.0.0",
     "@vitest/coverage-c8": "^0.25.8",
     "eslint-config-next": "13.0.7",
     "eslint-config-prettier": "^8.5.0",
