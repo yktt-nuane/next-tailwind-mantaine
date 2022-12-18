@@ -1,24 +1,23 @@
-# next-tailwind-mantine
+# next-tailwind-mantine <!-- omit in toc -->
 
 [![Last Commit](https://img.shields.io/github/last-commit/yktt-nuane/next-tailwind-mantine)](https://github.com/yktt-nuane/next-tailwind-mantine/graphs/commit-activity)
 [![CI](https://github.com/yktt-nuane/next-tailwind-mantine/actions/workflows/ci.yml/badge.svg)](https://github.com/yktt-nuane/next-tailwind-mantine/actions/workflows/ci.yml)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-- [next-tailwind-mantine](#next-tailwind-mantine)
-  - [Prerequisites](#prerequisites)
-  - [How to](#how-to)
-    - [Setup](#setup)
-      - [Reveal secrets](#reveal-secrets)
-      - [Hide secrets](#hide-secrets)
-      - [Environment Variables](#environment-variables)
-        - [`.env.local`](#envlocal)
-    - [Develop](#develop)
-    - [Test](#test)
-    - [Deploy](#deploy)
-  - [Misc](#misc)
-    - [LICENSE](#license)
-    - [Contributors](#contributors)
+- [Prerequisites](#prerequisites)
+- [How to](#how-to)
+  - [Setup](#setup)
+    - [Reveal secrets](#reveal-secrets)
+    - [Hide secrets](#hide-secrets)
+    - [Environment Variables](#environment-variables)
+      - [`.env.local`](#envlocal)
+  - [Develop](#develop)
+  - [Test](#test)
+  - [Deploy](#deploy)
+- [Misc](#misc)
+  - [LICENSE](#license)
+  - [Contributors](#contributors)
 
 ## Prerequisites
 
@@ -35,11 +34,11 @@
 
 #### Reveal secrets
 
-To reveal secret files, `npm run reveal`.
+`npm run reveal` to reveal secret files.
 
 #### Hide secrets
 
-To hide secret files, `npm run hide`.
+`npm run hide` to hide secret files.
 
 #### Environment Variables
 
@@ -55,7 +54,7 @@ SECRET_KEY=xxxxxxxx
 
 ### Test
 
-To test using Vitest and check coverage, `npm run test:unit`.
+`npm run test:unit` to test using Vitest and check coverage.
 
 ### Deploy
 
