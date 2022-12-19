@@ -8,6 +8,7 @@
 - [Prerequisites](#prerequisites)
 - [How to](#how-to)
   - [Setup](#setup)
+    - [install](#install)
     - [Reveal secrets](#reveal-secrets)
     - [Hide secrets](#hide-secrets)
     - [Environment Variables](#environment-variables)
@@ -33,6 +34,10 @@
 ## How to
 
 ### Setup
+
+#### install
+
+`npm install` to install packages
 
 #### Reveal secrets
 
