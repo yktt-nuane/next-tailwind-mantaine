@@ -30,4 +30,4 @@ jobs:
       - name: Unit test
         run: npm run test:unit
       - run: |
-          echo "ths is env=${{ env.API_KEY }}"
+          echo "ths is env=${{ process.env.API_KEY }}"
