@@ -1,8 +1,10 @@
 import { Button, Center } from '@mantine/core'
 import { log } from 'next-axiom'
 
+const test: any = process.env.API_KEY
+
 export default function Home() {
-  log.debug('Home')
+  log.debug(test)
   return (
     <>
       <Center style={{ width: 400, height: 200 }}>

@@ -36,3 +36,4 @@ yarn-error.log*
 next-env.d.ts
 .gitsecret/keys/random_seed
 !*.secret
+.env
