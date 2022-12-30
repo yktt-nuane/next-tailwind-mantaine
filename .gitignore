@@ -37,3 +37,5 @@ next-env.d.ts
 .gitsecret/keys/random_seed
 !*.secret
 .env
+.env.development
+.env.production
