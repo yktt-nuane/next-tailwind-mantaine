@@ -15,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - run: |
-          echo "test is ${{ secrets.API_KEY }}"
+          echo "test is ${{ process.env.API_KEY }}"
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
