@@ -29,5 +29,3 @@ jobs:
       - run: npm run build
       - name: Unit test
         run: npm run test:unit
-      - run: |
-          echo "ths is env=${{ secrets.API_KEY }}"
