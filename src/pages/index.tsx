@@ -1,29 +1,10 @@
-import { Center, Button } from '@mantine/core'
-import { GetStaticProps } from 'next'
+import { Button, Center } from '@mantine/core'
 import { log } from 'next-axiom'
-import useSWR from 'swr'
 
-export const getStaticProps: GetStaticProps = async (context) => {
-  log.info('Hello from SSR', { context })
-  return {
-    props: {},
-  }
-}
-
-const fetcher = async (args: any[]) => {
-  console.log('Fetching', args)
-  log.info('Hello from SWR', { args })
-  // @ts-ignore
-  const res = await fetch(...args)
-  return await res.json()
-}
+const test: any = process.env.API_KEY
 
 export default function Home() {
-  const { data, error } = useSWR('/api/hello', fetcher)
-
-  if (error) return <div>Failed to load</div>
-  if (!data) return <div>Loading...</div>
-
+  log.info(test)
   return (
     <>
       <Center style={{ width: 400, height: 200 }}>
