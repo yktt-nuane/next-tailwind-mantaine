@@ -39,6 +39,8 @@
 
 `npm install` to install packages
 
+`git secret add .env.local` to add `.env.local` to secret file
+
 #### Reveal secrets
 
 `npm run reveal` to reveal secret files.
