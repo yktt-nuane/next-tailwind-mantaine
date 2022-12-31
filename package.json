@@ -13,19 +13,31 @@
     "prepare": "husky install",
     "hide": "git secret hide -m",
     "reveal": "git secret reveal -f",
-    "test:unit": "vitest run --coverage"
+    "test:unit": "vitest run --coverage",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "next": "13.0.7",
     "next-axiom": "^0.16.0",
-    "react": "18.2.0"
+    "react": "18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.20.7",
     "@emotion/react": "^11.10.5",
     "@emotion/server": "^11.10.0",
     "@mantine/core": "^5.9.4",
     "@mantine/hooks": "^5.9.4",
     "@mantine/next": "^5.9.4",
+    "@storybook/addon-actions": "^6.5.15",
+    "@storybook/addon-essentials": "^6.5.15",
+    "@storybook/addon-interactions": "^6.5.15",
+    "@storybook/addon-links": "^6.5.15",
+    "@storybook/builder-webpack5": "^6.5.15",
+    "@storybook/manager-webpack5": "^6.5.15",
+    "@storybook/react": "^6.5.15",
+    "@storybook/testing-library": "^0.0.13",
     "@testing-library/react": "^13.4.0",
     "@types/node": "18.11.15",
     "@types/react": "18.0.26",
@@ -34,6 +46,7 @@
     "@vitejs/plugin-react": "^3.0.0",
     "@vitest/coverage-c8": "^0.25.8",
     "autoprefixer": "^10.4.13",
+    "babel-loader": "^8.3.0",
     "eslint-config-next": "13.0.7",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-unused-imports": "^2.0.0",
