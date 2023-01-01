@@ -1,20 +1,26 @@
 import '../src/styles/globals.css'
 
-import * as NextImage from 'next/image'
+import { mantineTheme } from 'storybook-addon-mantine'
+import { Theme } from './themes'
 
-export const parameters = {
-  actions: { argTypesRegex: '^on[A-Z].*' },
-  controls: {
-    matchers: {
-      color: /(background|color)$/i,
-      date: /Date$/,
-    },
-  },
+// These props are passed to the MantineProvider used by all stories.
+const mantineProviderProps = {
+  withCSSVariables: false,
+  withGlobalStyles: true,
+  withNormalizeCSS: false,
 }
 
-const OriginalNextImage = NextImage.default
-
-Object.defineProperty(NextImage, 'default', {
-  configurable: true,
-  value: (props) => <OriginalNextImage {...props} unoptimized />,
-})
+export const decorators = [
+  mantineTheme(
+    [
+      { ...Theme, themeName: 'Light Mode' },
+      {
+        themeName: 'Dark Mode - Green',
+        primaryColor: 'green',
+        colorScheme: 'dark',
+        radius: 0,
+      },
+    ],
+    mantineProviderProps
+  ),
+]
