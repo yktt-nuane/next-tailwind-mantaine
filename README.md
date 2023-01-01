@@ -15,6 +15,7 @@
       - [`.env.local`](#envlocal)
   - [Develop](#develop)
   - [Test](#test)
+  - [Storybook](#storybook)
   - [Deploy](#deploy)
 - [Misc](#misc)
   - [LICENSE](#license)
@@ -64,6 +65,12 @@ SECRET_KEY=xxxxxxxx
 ### Test
 
 `npm run test:unit` to test using Vitest and check coverage.
+
+### Storybook
+
+Every time you push to GitHub, it is automatically deployed to Chromatic.
+
+`npm run storybook` to open Storybook manually.
 
 ### Deploy
 
