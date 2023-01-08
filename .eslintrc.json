@@ -4,7 +4,9 @@
     "next/core-web-vitals",
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "prettier"
+    "prettier",
+    "plugin:storybook/recommended",
+    "next/core-web-vitals"
   ],
   "plugins": ["import", "unused-imports"],
   "rules": {
