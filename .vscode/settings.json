@@ -8,5 +8,12 @@
   "css.validate": false,
   "scss.validate": false,
   "files.insertFinalNewline": true,
-  "cSpell.words": ["Tatsuro", "Yokoyama", "stylelint", "mantine"]
+  "cSpell.words": [
+    "Tatsuro",
+    "Yokoyama",
+    "stylelint",
+    "mantine"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
 }
